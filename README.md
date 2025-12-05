@@ -2,65 +2,65 @@
 
 A comprehensive voice-enabled productivity platform with collaborative features, built using Deepgram ASR, Murf Falcon TTS, and Groq AI for intelligent task management and social accountability.
 
-## 🌟 Key Features
+## Key Features
 
-### 🎤 **Advanced Voice Interface**
+###  **Advanced Voice Interface**
 - **Deepgram ASR**: High-accuracy speech recognition with MediaRecorder API
 - **Murf Falcon TTS**: Natural voice responses with real-time audio playback
 - **Voice Commands**: Complete task/goal/habit management through speech
 - **Auto-Submit**: Immediate processing after voice transcription
 
-### 🤖 **Intelligent AI Assistant**
+###  **Intelligent AI Assistant**
 - **Groq LLaMA**: Fast AI inference for natural conversations
 - **Personalized Communication**: Adapts to user's casual/formal style
 - **Context-Aware**: Remembers recent conversations and current tasks
 - **Anti-Hallucination**: Only references actual user data from database
 
-### ✅ **Smart Task Management**
+###  **Smart Task Management**
 - **Natural Language Processing**: "Add finish the report to my tasks"
 - **Today-Only View**: Focus on current day with collapsible overdue section
 - **Voice Completion**: "Mark report as done" - completes tasks by name
 - **Priority Levels**: Organize tasks by importance
 
-### 🎯 **Advanced Goal Tracking**
+###  **Advanced Goal Tracking**
 - **Credit-Based Subgoals**: Break goals into 1-10 point achievements
 - **Voice Subgoal Creation**: "Add subgoal research to my project goal"
 - **Progress Calculation**: Automatic percentage based on completed subgoals
 - **Notebook-Style Interface**: Clean dialog for goal management
 
-### 🔄 **Habit Building System**
+###  **Habit Building System**
 - **Daily Logging**: Track habit completion with streak counting
 - **Voice Logging**: "Mark exercise as done" - log habits by name
 - **Visual Week View**: See completion patterns at a glance
 - **Real-Time Date Integration**: Proper date handling for accurate tracking
 
-### 👥 **Social Accountability & Friends System**
+###  **Social Accountability & Friends System**
 - **Real Gmail Integration**: Search and add friends by actual email addresses
 - **Friend Requests**: Send/accept/reject system with notifications
 - **Collaborative Queries**: "Tell me tasks of John" - check friends' progress
 - **Voice Messaging**: "Send hi to Alice" or "Remind Bob to call mom"
 - **Shared Visibility**: View friends' pending tasks and active goals
 
-### 💬 **Messaging & Communication**
+###  **Messaging & Communication**
 - **Voice-to-Message**: Send messages through voice commands
 - **Reminder System**: "Remind [friend] to [task]" functionality
 - **Message History**: View sent and received messages with timestamps
 - **Real-Time Updates**: Messages appear instantly in recipient's inbox
 
-### 🔐 **Authentication & Security**
+###  **Authentication & Security**
 - **Google OAuth**: Secure login with Gmail account integration
 - **Demo Fallback**: Guest access for testing without Google account
 - **User Registration**: Automatic database user creation
 - **Environment Variables**: Secure API key management
 
-### 📱 **Modern UI/UX**
+###  **Modern UI/UX**
 - **Glassmorphism Design**: Professional aesthetic with gradient backgrounds
 - **Responsive Layout**: Works on desktop, tablet, and mobile
 - **Dark/Light Mode**: Automatic theme switching
 - **Real-Time Updates**: Live refresh of tasks, goals, and habits
 - **Chat History**: Session management with folder-style organization
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 
@@ -75,14 +75,6 @@ cd frontend
 npm install
 ```
 
-### 2. Configure API Keys
-
-Create `.env` file in root directory:
-```env
-DEEPGRAM_API_KEY=your_deepgram_key_here
-MURF_API_KEY=your_murf_falcon_key_here
-GROQ_API_KEY=your_groq_key_here
-```
 
 ### 3. Run the Application
 
@@ -100,7 +92,7 @@ npm run dev
 ### 4. Access the App
 Open browser: `http://localhost:5173`
 
-## 🎯 Voice Commands Guide
+##  Voice Commands Guide
 
 ### Task Management
 - **Add Tasks**: "Add finish the report to my tasks"
@@ -128,7 +120,7 @@ Open browser: `http://localhost:5173`
 - **Status Check**: "What are my pending tasks?"
 - **Help**: "What can you help me with?"
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Flask**: Python web framework with async support
@@ -153,7 +145,7 @@ Open browser: `http://localhost:5173`
 - **Messages**: Friend-to-friend communication
 - **Chat History**: Session-based conversation storage
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 work-and-win/
@@ -176,7 +168,7 @@ work-and-win/
 └── README.md
 ```
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Core Features
 - `POST /api/chat` - AI conversation with voice command processing
@@ -200,7 +192,7 @@ work-and-win/
 - `GET /api/friends/{id}/tasks` - Get friend's tasks
 - `GET /api/friends/{id}/goals` - Get friend's goals
 
-## 🎨 Key Innovations
+##  Key Innovations
 
 ### 1. **Voice-First Design**
 Unlike traditional productivity apps, Work & Win prioritizes voice interaction, making task management as natural as having a conversation.
@@ -217,7 +209,7 @@ Supports natural language patterns rather than rigid commands - "I need to finis
 ### 5. **Real-Time Collaboration**
 Voice commands can query friends' data and send messages, creating a collaborative productivity environment.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - **Mobile App**: React Native version for iOS/Android
 - **Calendar Integration**: Sync with Google Calendar
@@ -227,21 +219,12 @@ Voice commands can query friends' data and send messages, creating a collaborati
 - **Multi-Language Support**: International accessibility
 - **Video Calls**: Built-in communication features
 
-## 🏆 Hackathon Compliance
 
-✅ **Deepgram ASR**: Advanced speech recognition with MediaRecorder  
-✅ **Murf Falcon TTS**: Natural voice synthesis with real-time playback  
-✅ **AI Integration**: Groq LLaMA for intelligent conversations  
-✅ **Voice Commands**: Complete app control through speech  
-✅ **Social Features**: Friend system with collaborative accountability  
-✅ **Modern Architecture**: React + Flask with SQLite persistence  
-✅ **Professional UI**: Glassmorphism design with responsive layout  
-
-## 📄 License
+## License
 
 MIT License - Feel free to use, modify, and distribute!
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Deepgram** for exceptional speech recognition accuracy
 - **Murf AI** for natural text-to-speech capabilities  
@@ -251,4 +234,4 @@ MIT License - Feel free to use, modify, and distribute!
 
 ---
 
-**Work & Win** - Where productivity meets social accountability through the power of voice! 🎤✨
+**Work & Win** - Where productivity meets social accountability through the power of voice! 
